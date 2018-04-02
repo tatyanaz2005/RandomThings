@@ -6,7 +6,7 @@ font-family: 'Tsukushi A Round Gothic', cursive;
 .Number{
     background-color: lightcoral;
     font-size: 20px;
-    height: 150px;
+    height: 200px;
     padding: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -16,10 +16,36 @@ font-family: 'Tsukushi A Round Gothic', cursive;
 .Answer{
    background-color: lightskyblue;
     font-size: 20px;
-    height: 150px;
+    height: 200px;
     padding: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px; 
+}
+
+.numButton{
+    background-color: rgb(180, 180, 180);
+    color: #b39700;
+    padding: 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px; 
+    font-size: 20px;
+}
+
+.answerButton{
+    background-color: rgb(180, 180, 180);
+    color: #b39700;
+    padding: 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px; 
+    font-size: 20px;
+}
+
+p{
+font-size: 20px;
 }
