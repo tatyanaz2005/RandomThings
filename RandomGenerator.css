@@ -11,5 +11,15 @@ font-family: 'Tsukushi A Round Gothic', cursive;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-right-radius: 20px
+}
+.Answer{
+   background-color: lightskyblue;
+    font-size: 20px;
+    height: 150px;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
 }
