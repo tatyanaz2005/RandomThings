@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Number Generator</title>
+  <link rel="stylesheet" href="RandomGenerator.css">
+</head>
+<body>
+  <h1>Random Things Generator</h1>
+  <p>Do you want to genrate random things for fun? If so, this is the website for you</p>
+  <!-- Front-end number generator -->
+  <div id="Number", class="Number">
+    <p>Click the button below to generate a random number between one and one hundred.</p>
+  <button onclick= randomNum()>Click me to generate a random number</button>
+  <p id= "textFieldNum"> This is where your number will appear</p>
+  </div>
+<!-- Front-end answer generator-->
+<div id="Answer", class="Answer">
+  <p>Click the button below to generate a random yes or no answer.</p>
+  <button onclick= randomYN()>Click me to generate a random yes or no answer</button>
+  <p id="textFieldYN"> This is where your answer will appear </p>
+</div>
+<script type="text/javascript">
+// Back-end number generator 
+  function randomNum() {
+      var Num = Math.floor(Math.random()*100);
+
+      var RoundNum = Math.round(Num);
+      document.getElementById('textFieldNum').innerHTML=" "+ RoundNum;
+    }
+    
+    var YesNo = ["Yes", "No", "Maybe","Certainly", "The odds are in your favour", "Definitley not", "Nope"]
+
+    function randomYN() {
+      var ynNum = Math.floor(Math.random()*7);
+
+      var RoundYN = Math.round(ynNum);
+      document.getElementById("textFieldYN").innerHTML = ' '+YesNo[RoundYN];
+    }
+</script>
+</body>
+</html>
