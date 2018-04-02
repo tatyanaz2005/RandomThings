@@ -4,7 +4,7 @@ text-align: center;
 font-family: 'Tsukushi A Round Gothic', cursive;
 }
 .Number{
-    background-color: lightcoral;
+    background-color: rgb(233, 233, 166);
     font-size: 20px;
     height: 200px;
     padding: 20px;
@@ -33,6 +33,7 @@ font-family: 'Tsukushi A Round Gothic', cursive;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px; 
     font-size: 20px;
+    border: 2px solid #b39700;
 }
 
 .answerButton{
@@ -44,6 +45,30 @@ font-family: 'Tsukushi A Round Gothic', cursive;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px; 
     font-size: 20px;
+    border: 2px solid #b39700;
+}
+
+.letterButton{
+    background-color: rgb(180, 180, 180);
+    color: #b39700;
+    padding: 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px; 
+    font-size: 20px;
+    border: 2px solid #b39700;
+}
+
+.Letter{
+   background-color: lightpink;
+    font-size: 20px;
+    height: 200px;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
 }
 
 p{
