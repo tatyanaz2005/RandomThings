@@ -13,17 +13,21 @@
   <button id="numButton" class="numButton" onclick= randomNum()>Click me to generate a random number</button>
   <p id= "textFieldNum"> This is where your number will appear</p>
   </div>
-
   <br>
- 
- 
-<!-- Front-end answer generator-->
+ <!-- Front-end answer generator-->
 <div id="Answer", class="Answer">
   <p>Click the button below to generate a random yes or no answer.</p>
   <button id="answerButton", class="answerButton"onclick= randomYN()>Click me to generate a random yes or no answer</button>
   <p id="textFieldYN"> This is where your answer will appear </p>
 </div>
-<script type="text/javascript">
+<br>
+<!-- Front-end letter generator -->
+<div id="Letter", class="Letter">
+  <p>Click the button below to generate a random letter</p>
+  <button id="letterButton", class="letterButton", onclick= randomLetter()>Click me to generate a random letter</button>
+  <p id="textFieldLetter", class="textFieldLetter">This is where your letter will appear</p>
+</div>
+<script type="text/javascript"
 // Back-end number generator 
   function randomNum() {
       var Num = Math.floor(Math.random()*100);
@@ -31,14 +35,20 @@
       var RoundNum = Math.round(Num);
       document.getElementById('textFieldNum').innerHTML=" "+ RoundNum;
     }
-    
+ //Back-end answer generator   
     var YesNo = ["Yes", "No", "Maybe","Certainly", "The odds are in your favour", "Definitley not", "Nope"]
-
     function randomYN() {
       var ynNum = Math.floor(Math.random()*7);
 
       var RoundYN = Math.round(ynNum);
       document.getElementById("textFieldYN").innerHTML = ' '+YesNo[RoundYN];
+    }
+    //Back-end letter generator
+    var letter = ["A", "B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+    function randomLetter() {
+      var letterNum = Math.floor(Math.random()*26);
+      var roundLetterNum = Math.round(letterNum);
+      document.getElementById("textFieldLetter").innerHTML=" "+letter[roundLetterNum];
     }
 </script>
 </body>
